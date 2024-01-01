@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.invalid-shadow {
+    box-shadow: 0 0 8px 0.9px rgba(255, 0, 0, 0.2);
+}
+.age-display{
+    font-size: 60px;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 101%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Custom Buttons */
+.btn-custom {
+    background-color: #472bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #2a1f94;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: rgb(151, 148, 148);
+    border: 0.5px solid transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-transparent:hover {
+    background: #472bff;
+    border: 0.5px solid #2100f7;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+/* END */
+/* CUSTOM SCROLL */
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #472bff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: greenyellow;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #472bff transparent;
+}
+/* END */
